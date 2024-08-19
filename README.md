@@ -10,6 +10,7 @@
 
 - **Add a Task**: Create a new task with a description and an initial status of "todo".
 - **List Tasks**: View all tasks or filter tasks by their status (e.g., "todo", "in-progress", "done").
+- **Update a Task**: Modify the description of an existing task.
 - **Mark Task Status**: Update the status of an existing task.
 - **Delete Task**: Remove a task by its ID (functionality to be implemented).
 
@@ -53,6 +54,13 @@ node taskTraker.js list <status>
 ```
 
 Valid statuses include `todo`, `in-progress`, and `done`.
+
+### Update a Task
+To update the description of a task, use:
+
+```bash
+node taskTraker.js update <task-id> "New task description"
+```
 
 ### Mark Task Status
 
