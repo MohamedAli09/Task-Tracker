@@ -1,6 +1,4 @@
-Here's a description for your `README.md` file that outlines the functionality and usage of your task tracker CLI application:
-
----
+ 
 
 # Task Tracker CLI
 
@@ -23,8 +21,8 @@ The **Task Tracker CLI** is a simple command-line tool for managing tasks. It al
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/MohamedAli09/Task-Tracker.git
+    cd Task-Tracker
     ```
 
 2. Ensure you have Node.js installed. If not, download and install it from the [official website](https://nodejs.org/).
