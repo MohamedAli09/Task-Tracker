@@ -27,8 +27,7 @@ The **Task Tracker CLI** is a simple command-line tool for managing tasks. It al
 
 2. Ensure you have Node.js installed. If not, download and install it from the [official website](https://nodejs.org/).
 
-3. (Optional) Install dependencies if you have any (though in this simple example, there are none).
-
+ 
 ## Usage
 
 ### Add a Task
