@@ -62,25 +62,10 @@ To change the status of a task, use:
 node index.js mark <task-id> <new-status>
 ```
 
-Replace `<task-id>` with the ID of the task and `<new-status>` with the desired status.
-
+ 
 ### Delete Task
 
-*Note: The delete functionality is not yet implemented.*
-
-## File Structure
-
-- **`index.js`**: Main script for handling CLI commands and interacting with the task data.
-- **`taskTracker.json`**: JSON file used to store the tasks.
-
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This description provides a clear overview of what the CLI application does, how to use it, and where to find or contribute to the code. Adjust any sections as needed based on your project's specific details.
+```bash
+node index.js delete <task-id>
+```
+ 
