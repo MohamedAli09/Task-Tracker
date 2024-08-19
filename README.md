@@ -35,7 +35,7 @@
 To add a new task, use the following command:
 
 ```bash
-node index.js add "Task description"
+node taskTraker.js add "Task description"
 ```
 
 ### List Tasks
@@ -43,13 +43,13 @@ node index.js add "Task description"
 To list all tasks, use:
 
 ```bash
-node index.js list
+node taskTraker.js list
 ```
 
 To list tasks by status, use:
 
 ```bash
-node index.js list <status>
+node taskTraker.js list <status>
 ```
 
 Valid statuses include `todo`, `in-progress`, and `done`.
@@ -59,13 +59,13 @@ Valid statuses include `todo`, `in-progress`, and `done`.
 To change the status of a task, use:
 
 ```bash
-node index.js mark <task-id> <new-status>
+node taskTraker.js mark <task-id> <new-status>
 ```
 
  
 ### Delete Task
 
 ```bash
-node index.js delete <task-id>
+node taskTraker.js delete <task-id>
 ```
  
